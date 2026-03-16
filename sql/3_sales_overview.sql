@@ -22,7 +22,7 @@ select
     count(distinct invoice) as invoices,
     round(sum(quantity * price), 2) as revenue
 from raw.online_retail
-where quantity > 0 and price > 0
+where quantity > 0 and price > 0 and stock_code not in ('DOT', 'POST', 'M', 'AMAZONFEE', 'BANK CHARGES')
 group by stock_code, description
 order by revenue desc
 limit 10;
