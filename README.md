@@ -17,7 +17,7 @@
 
 #### Топ-10 товаров по выручке, по количеству заказов и странам.
 ![revenue by invoices](screenshots/top_10_code.png)
-![revenue by countries](screenshots/top_10_contries.png)
+![revenue by countries](screenshots/top_10_countries.png)
 
 Лидер продаж — REGENCY CAKESTAND 3 TIER.
 Великобритания генерирует 85% выручки. Нидерланды и Ирландия - зарубежные рынки с выручкой выше 280K.
